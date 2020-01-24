@@ -1,0 +1,22 @@
+body{
+    background: url("../img/rojo.jpg");
+    background-attachment: fixed;
+    --rojo: #ca3413;
+}
+
+#logo{
+    background: var(--rojo);
+}
+
+
+#menu ul li:hover{
+    background: var(--rojo);
+}
+
+.button-more{
+    background: var(--rojo);
+}
+
+.ui-state-active{
+    background: var(--rojo);
+}
